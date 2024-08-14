@@ -1,0 +1,10 @@
+name: python-poetry
+runtime:
+  name: python
+  options:
+    toolchain: poetry
+description: A minimal Python Pulumi program
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: python
